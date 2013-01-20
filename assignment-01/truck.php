@@ -13,4 +13,5 @@ class myTruck extends myVehicle implements vehicleInterface
 		return '';
     }
 }
+
 ?>
