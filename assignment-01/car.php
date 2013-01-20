@@ -13,4 +13,5 @@ class myCar extends myVehicle implements vehicleInterface
 		return '';
     }
 }
+
 ?>
