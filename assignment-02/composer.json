@@ -1,0 +1,15 @@
+{
+    "name": "vendor/assignment-02",
+    "description": "autoloading mysqli",
+    "require": {
+        "phpunit/phpunit": "3.7.9",
+        "phpunit/dbunit": "1.2.2"
+    },
+    "authors": [
+        {
+            "name": "Mike Krisel",
+            "email": "michaelkrisel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
