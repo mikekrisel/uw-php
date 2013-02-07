@@ -4,7 +4,7 @@ namespace tests\src\civicTest;
 use vehicle\car\civic as civic;
 require_once '/../../bootstrap.php';
 /**
-* Civic class unit test code - changing something
+* Civic class unit test code
 */
 class civicTest extends \PHPUnit_Framework_TestCase
 {
