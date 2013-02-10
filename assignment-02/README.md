@@ -1,6 +1,6 @@
 Assignment 2
 ===
-Build OO way of connecting to Database
+Build OO way of connecting to Database  
 Work on group project
 
 Contains the following files
