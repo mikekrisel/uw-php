@@ -12,8 +12,8 @@ Contains the following files
     - conf/
         - phpunit.xml
     - src/
-        -db_test/
-	    - mysqli_test.php
+        - db_test/
+            - mysqli_test.php
 - index.php
 - bootstrap.php   takes care autoloading
 - composer.json   Sets up autoloading, dependency (phpunit)
