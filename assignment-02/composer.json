@@ -2,7 +2,7 @@
     "name": "vendor/assignment-02",
     "description": "autoloading mysqli",
     "require": {
-        "phpunit/phpunit": "3.7.9",
+        "phpunit/phpunit": "3.8.*",
         "phpunit/dbunit": "1.2.2"
     },
     "authors": [
@@ -11,5 +11,11 @@
             "email": "michaelkrisel@gmail.com"
         }
     ],
+	"autoload": {
+        "psr-0": {
+            "db": "src/",
+            "db_test": "tests/src/"
+        }
+    },
     "minimum-stability": "dev"
 }

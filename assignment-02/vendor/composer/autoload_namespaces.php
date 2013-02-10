@@ -6,4 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'db_test' => $baseDir . '/tests/src/',
+    'db' => $baseDir . '/src/',
+    'Symfony\\Component\\Yaml' => $vendorDir . '/symfony/yaml/',
 );
