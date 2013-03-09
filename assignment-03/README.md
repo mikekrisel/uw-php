@@ -12,10 +12,17 @@ What was implemented
 Set up Model class, API class, Database class and Parse class
 
 -src 
+
 --api 
+
 --db 
+
 --model 
+
 --parse 
+
 --v1 
+
 -tests 
+
 -vendor 
