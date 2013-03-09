@@ -4,8 +4,8 @@ Build API that consumes another api and renders it in json file
 
 Use
 ===
-Go to http://uw-php.local/assignment-03/linkedin-api.php/v1/accountname
-Go to http://uw-php.local/assignment-03/github-api.php/v1/accountname
+Go to localhost/assignment-03/linkedin-api.php/v1/accountname
+Go to localhost/assignment-03/github-api.php/v1/accountname
 
 What was implemented
 ===
