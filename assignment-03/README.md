@@ -16,22 +16,22 @@ Contains the following files
 - src/
     - api/
       - github_api/
-        - api.php
+            - api.php
       - linkedin_api/
-        - api.php
+            - api.php
     - db/
       - mysqli.php
     - model/
       - model.php
       - github_model/
-        - model.php
+            - model.php
       - linkedin_model/
-        - model.php
+            - model.php
     - parse/
       - github_model_parse/
-        - parse.php
+            - parse.php
       - linkedin_model_parse/
-        - parse.php
+            - parse.php
     - v1
       - list-git.json
       - list-profile.json
@@ -41,9 +41,9 @@ Contains the following files
         - phpunit.xml
     - src/
         - db_test/
-          - mysqli_test.php
+            - mysqli_test.php
         - model_test/
-          - model_test.php
+            - model_test.php
 - github-api.php    calls the github api
 - linkedin-api.php  calls the linkedin api
 - bootstrap.php     takes care autoloading
