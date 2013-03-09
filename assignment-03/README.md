@@ -10,3 +10,12 @@ Go to localhost/assignment-03/github-api.php/v1/accountname
 What was implemented
 ===
 Set up Model class, API class, Database class and Parse class
+
+-src
+--api
+--db
+--model
+--parse
+--v1
+-tests
+-vendor
