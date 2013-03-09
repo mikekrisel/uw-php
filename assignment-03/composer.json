@@ -1,0 +1,25 @@
+{
+    "name": "vendor/assignment-03",
+    "description": "autoloading mysqli",
+    "require": {
+        "phpunit/phpunit": "3.8.*",
+        "phpunit/dbunit": "1.2.*",
+				"slim/slim": "2.*"
+    },
+    "authors": [
+        {
+            "name": "Mike Krisel",
+            "email": "michaelkrisel@gmail.com"
+        }
+    ],
+	"autoload": {
+        "classmap": [{
+            "db": "src/",
+            "api": "src/api/",
+            "model": "src/model/",
+            "model_parse": "src/parse/",
+            "db_test": "tests/src/"
+        }]
+    },
+    "minimum-stability": "dev"
+}

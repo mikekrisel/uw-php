@@ -8,6 +8,5 @@ error_reporting( E_ALL | E_STRICT );
 ini_set('display_errors','On');
 ini_set('display_startup_errors','On');
 // @see http://getcomposer.org/doc/01-basic-usage.md for detail usage
-require 'vendor/autoload.php';
-require 'PHPUnit/autoload.php';
+require '/vendor/autoload.php';
 ?>

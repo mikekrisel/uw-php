@@ -2,7 +2,7 @@
     "name": "php/assignment-01-part-2",
     "description": "Auotoloading for assignment-01-part-2",
     "require": {
-        "phpunit/phpunit": "3.8.x-dev"
+        "phpunit/phpunit": "3.8.*"
     },
     "authors": [
         {
@@ -10,5 +10,11 @@
             "email": "michaelkrisel@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "autoload": {
+      "psr-0": { "Assignment-01-part-2": [
+        "src/",
+        "test/"
+      ] }
+    },
+    "minimum-stability": "dev"
 }
