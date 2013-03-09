@@ -1,6 +1,6 @@
 Assignment 2
 ===
-Build OO way of connecting to Database
+Build OO way of connecting to Database  
 Work on group project
 
 Contains the following files
@@ -12,8 +12,8 @@ Contains the following files
     - conf/
         - phpunit.xml
     - src/
-        -db_test/
-	    - mysqli_test.php
+        - db_test/
+            - mysqli_test.php
 - index.php
 - bootstrap.php   takes care autoloading
 - composer.json   Sets up autoloading, dependency (phpunit)
