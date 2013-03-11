@@ -41,8 +41,8 @@ class pdo
 	 **/
 	protected $result;
 
-  /**
-   * public __constructor
+  	/**
+   	 * public __constructor
 	 * sets connection values
 	 * @param array configuration options
 	 **/
